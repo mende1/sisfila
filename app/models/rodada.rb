@@ -27,3 +27,15 @@ class Rodada < ApplicationRecord
   end
 
 end
+
+# == Schema Information
+#
+# Table name: rodadas
+#
+#  id              :integer          not null, primary key
+#  descricao       :string
+#  inscricao_guest :boolean
+#  posicao_atual   :integer
+#  created_at      :datetime         not null
+#  updated_at      :datetime         not null
+#
